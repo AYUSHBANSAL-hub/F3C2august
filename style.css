@@ -1,5 +1,60 @@
-.postal-card{
-    background-color: aliceblue;
-    border-radius: 10px;
-    margin: 10px;
+* {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: black;
+}
+
+#post-office-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#post-offices {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-inline: auto;
+}
+.postal-card {
+  width: 40vw;
+  background-color: #575a85;
+  border-radius: 10px;
+  margin: 10px;
+  color: #b8bccc;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+  padding: 20px;
+}
+button {
+  border-radius: 10px;
+  border: 2px solid #b8bccc;
+  padding: 10px;
+  background-color: transparent;
+  width: 30vw;
+}
+input {
+  border-radius: 10px;
+  border: 3px solid #575a85;
+  width: 90%;
+  padding: 10px;
+  color: white;
+  background-color: transparent;
+}
+.postal-card > p {
+  color: #b8bccc;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#location {
+  background-color: #575a85;
 }
